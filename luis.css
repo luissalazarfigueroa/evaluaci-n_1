@@ -27,8 +27,8 @@ nav a {
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 0.8em;
-
 }
+
 .navbar-toggler-icon{background-image: url(http://mondo-medusa.it/wp-content/uploads/2014/11/arrowAusgeschnitten.png);}
 .nav-link:not(.active){opacity: 0.5}
 .nav-link:hover{opacity:1; color:mediumturquoise;}
@@ -188,3 +188,29 @@ nav a:focus {
 }
 
 .jumbotron{background-image: url(https://cdn.pixabay.com/photo/2012/04/10/17/05/stripes-26447_960_720.png);}
+
+section#contact {
+  background-color:;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
