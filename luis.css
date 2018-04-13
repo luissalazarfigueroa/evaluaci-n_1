@@ -60,6 +60,7 @@ nav a:focus {
 	transform: translateY(-10px);
 }
 
+
 .cl-effect-4 a:hover::after,
 .cl-effect-4 a:focus::after {
 	height: 1px;
@@ -139,6 +140,9 @@ nav a:focus {
   bottom: 0;
   z-index: 1;
 }
+.portfolio-item h1{color: rgba(0,0,0,0);}
+.portfolio-item:hover h1{color: whitesmoke;}
+
 
 .portfolio-item .caption .caption-content {
   color: #fff;
@@ -187,7 +191,7 @@ nav a:focus {
   }
 }
 
-.jumbotron{background-image: url(https://cdn.pixabay.com/photo/2012/04/10/17/05/stripes-26447_960_720.png);}
+.jumbotron{background-image: url(https://www.publicdomainpictures.net/pictures/130000/velka/black-and-white-diagonal-pattern.jpg);}
 
 section#contact {
   background-color:;
@@ -213,4 +217,15 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
   height: 248px;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
