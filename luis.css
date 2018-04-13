@@ -142,8 +142,6 @@ nav a:focus {
 }
 .portfolio-item h1{color: rgba(0,0,0,0);}
 .portfolio-item:hover h1{color: whitesmoke;}
-
-
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
@@ -229,3 +227,4 @@ section#contact .form-group textarea.form-control {
   line-height: 1;
   letter-spacing: -.05rem;
 }
+.featurette-heading
